@@ -1,0 +1,65 @@
+.App{
+  text-align: center;
+}
+.App-header{
+  background-color: #171717;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+}
+.App-header h3{
+  color: #FFCE00;
+  font-size:28px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.App-header h3 span{
+  color: white;
+  font-weight: 300;
+}
+.time-view{
+  background-color: #888;
+  padding:15px;
+}
+.time-view .time{
+  color:#F3F3F3;
+  font-size: 32px;
+  font-weight: 700;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+
+}
+button{
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  padding:15px;
+  border: none;
+  border-bottom: 1px dashed #AAA;
+  outline: none;
+  position: relative;
+}
+.btn{
+  display: flex;
+  flex-direction: column;
+}
+button.start{
+  background-color: #FFCE00;
+}
+button.pause{
+  background-color:#0085CA;
+}
+button.lap{
+  background-color:#00FFCE;
+}
+button.stop{
+  background-color:#AF1E2D;
+}
+button:disabled{
+  background-color:#EEE;
+  color: #AAA;
+}
+.lap{
+  padding: 15px;
+  border-bottom: 1px dashed #CCC;
+}
